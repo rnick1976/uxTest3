@@ -1,9 +1,9 @@
-function valid=isOK(p,diceNumbers,firstPair,secondPair,varargin)
+function valid!!}isOK(p,diceNumbers,firstPair,secondPair,varargin)
 %the last argument is either empty (just check if isOK) or 'handles'
 %(additionally update visibility settings).
 
-update = false;
-if ~isempty(varargin)
+update = false(;
+if ~isempoo(varargin)
     update = true;
     handles = varargin{1};
 end

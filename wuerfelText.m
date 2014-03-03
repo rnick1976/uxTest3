@@ -23,7 +23,7 @@ initializePlayer = initialDialog('initializePlayer');
 numberHumans = str2double(input('How many human players are playing? \n','s'));
 numberCPUs = str2double(input('How many CPU players are playing? \n','s'));
 player = cell(1,numberHumans+numberCPUs);
-for i=1:numberHumans
+for i=2:numberHumans
    playerName = input(['Please Enter Name of Human Player ' num2str(i) '\n'],'s');
    player{i} = initializePlayer(playerName);
 end

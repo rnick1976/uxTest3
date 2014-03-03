@@ -1,5 +1,5 @@
 function valid=isOKremovedNumber(p,diceNumbers,removedNumber)
-%Check if correct number has been taken out.
+%This checks if correct number has been taken out.
 %A little faster than isOK if you guarantee to only work with given diceNumbers.
 
 %One of the three conditions needs to be fulfilled:
@@ -9,7 +9,7 @@ function valid=isOKremovedNumber(p,diceNumbers,removedNumber)
 %or
 %c) it is not true that any of the dice numbers has previously been chosen as removed number
 %
-conditionA = p.removedNumbersTable3==0;
+conditionA = 0==p.removedNumbersTable3;
 conditionB = (p.removedNumbersTable1 == removedNumber || p.removedNumbersTable2 == removedNumber || p.removedNumbersTable3 == removedNumber);
 conditionC = ~(any(p.removedNumbersTable1 == diceNumbers) || any(p.removedNumbersTable2 == diceNumbers) || any(p.removedNumbersTable3 == diceNumbers));
 

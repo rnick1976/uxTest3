@@ -1,5 +1,6 @@
 function valid=isOK(p,diceNumbers,firstPair,secondPair,varargin)
-%last argument is either empty (just check if isOK) or 'handles' (additionally update visibility settings)
+%the last argument is either empty (just check if isOK) or 'handles'
+%(additionally update visibility settings).
 
 update = false;
 if ~isempty(varargin)

@@ -7,7 +7,7 @@ for functionName = {'initializePlayer','select'}
         if ischar(varargin{1}) && strcmp(varargin{1},functionName{1})
             player = eval(['{@' varargin{1} '};']);
             player = player{1}; %extra line necessary since output is cell otherwise
-            return
+            return   
         end
     end
 end

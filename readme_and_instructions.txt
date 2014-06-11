@@ -1,6 +1,6 @@
 Dice Game
 ---------
-
+I mnade a change
 Coded up for Matlab by Bernhard Konrad (bernhard.konrad@gmail.com) and Isabell Graf (grafisab@gmail.com).
 
 
